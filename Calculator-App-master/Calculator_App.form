@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.calculatorjava.Calculator_App">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="360" y="20" width="921" height="430"/>
+    </constraints>
+    <properties>
+      <alignmentX value="1.0E-4"/>
+      <alignmentY value="1.0E-4"/>
+      <autoscrolls value="true"/>
+      <background color="-16777216"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <font name="Droid Sans" size="21"/>
+      <foreground color="-2311"/>
+    </properties>
+    <border type="none" title-justification="2">
+      <font name="Consolas"/>
+      <color color="-16777216"/>
+    </border>
+    <children>
+      <component id="9f47e" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="4ccc2" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="88191" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="89cd0" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="30fc8" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="3a90d" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="9d5d3" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="2" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="1b3e0" class="javax.swing.JButton" binding="substraction">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-5"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-1472000"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <label value="-"/>
+          <opaque value="true"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="f9133" class="javax.swing.JButton" binding="addition">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-5"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-1472000"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <label value="+"/>
+          <opaque value="true"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="6bf80" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="f02a6" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="3d25e" class="javax.swing.JButton" binding="dotButton">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="a016b" class="javax.swing.JButton" binding="a10XButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="10ˣ "/>
+        </properties>
+      </component>
+      <component id="296d" class="javax.swing.JButton" binding="lg10Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="log10"/>
+        </properties>
+      </component>
+      <component id="eb4e0" class="javax.swing.JButton" binding="percentage">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="1b5fc" class="javax.swing.JButton" binding="multiplication">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-5"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-1472000"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <label value="×"/>
+          <opaque value="true"/>
+          <text value="×"/>
+        </properties>
+      </component>
+      <component id="7675d" class="javax.swing.JButton" binding="divide">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-5"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-1472000"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <label value="÷"/>
+          <opaque value="true"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="d6c2f" class="javax.swing.JButton" binding="a5Button">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-12038574"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <label value="5"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="9362c" class="javax.swing.JButton" binding="evaluate">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <actionCommand value="="/>
+          <alignmentX value="1.0E-5"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-1472000"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <inheritsPopupMenu value="true"/>
+          <label value="="/>
+          <opaque value="true"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="dfec3" class="javax.swing.JButton" binding="coshButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="cosh"/>
+        </properties>
+      </component>
+      <component id="2a22a" class="javax.swing.JButton" binding="radButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5" ipadx="1" ipady="1"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="Rad"/>
+        </properties>
+      </component>
+      <component id="36383" class="javax.swing.JButton" binding="sinButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="sin"/>
+        </properties>
+      </component>
+      <component id="2f57e" class="javax.swing.JButton" binding="cosButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="cos"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="bbe37" class="javax.swing.JButton" binding="tanButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="tan"/>
+        </properties>
+      </component>
+      <component id="902cf" class="javax.swing.JButton" binding="tanhButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="tanh"/>
+        </properties>
+      </component>
+      <component id="19983" class="javax.swing.JButton" binding="sinhButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="sinh"/>
+        </properties>
+      </component>
+      <component id="fc0ac" class="javax.swing.JButton" binding="factorial">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="x!"/>
+        </properties>
+      </component>
+      <component id="42b2e" class="javax.swing.JButton" binding="a1XButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="1/x"/>
+        </properties>
+      </component>
+      <component id="3f0a4" class="javax.swing.JButton" binding="x2Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="x²"/>
+        </properties>
+      </component>
+      <component id="aaf6a" class="javax.swing.JButton" binding="x3Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="x³"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="47c25" class="javax.swing.JButton" binding="xYButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="yˣ "/>
+        </properties>
+      </component>
+      <component id="5c0c1" class="javax.swing.JButton" binding="eXButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="eˣ "/>
+        </properties>
+      </component>
+      <component id="98631" class="javax.swing.JButton" binding="eButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="e"/>
+        </properties>
+      </component>
+      <component id="5fba5" class="javax.swing.JButton" binding="piButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="4" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="π"/>
+        </properties>
+      </component>
+      <component id="e7733" class="javax.swing.JButton" binding="sqrtButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="√"/>
+        </properties>
+      </component>
+      <component id="b0682" class="javax.swing.JButton" binding="crootButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="3√"/>
+        </properties>
+      </component>
+      <component id="8dcc2" class="javax.swing.JButton" binding="leftParenthesisButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <text value=")"/>
+        </properties>
+      </component>
+      <component id="18fb0" class="javax.swing.JButton" binding="a2ndButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <text value="2nd"/>
+        </properties>
+      </component>
+      <component id="e650a" class="javax.swing.JButton" binding="mcButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="mc"/>
+        </properties>
+      </component>
+      <component id="1550c" class="javax.swing.JButton" binding="maddButton">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="m+"/>
+        </properties>
+      </component>
+      <component id="f840d" class="javax.swing.JButton" binding="lnButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="ln"/>
+        </properties>
+      </component>
+      <component id="6e5ef" class="javax.swing.JButton" binding="EEButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="EE"/>
+        </properties>
+      </component>
+      <component id="6e884" class="javax.swing.JButton" binding="randButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="Rand"/>
+        </properties>
+      </component>
+      <component id="80214" class="javax.swing.JButton" binding="plusMinus">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="+/-"/>
+        </properties>
+      </component>
+      <component id="80576" class="javax.swing.JButton" binding="ACButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="false"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="43777" class="javax.swing.JButton" binding="mrButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="mr"/>
+        </properties>
+      </component>
+      <component id="45261" class="javax.swing.JButton" binding="msubtractButton">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="m-"/>
+        </properties>
+      </component>
+      <component id="d7f" class="javax.swing.JButton" binding="yXButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <text value="y√x"/>
+        </properties>
+      </component>
+      <component id="e32ca" class="javax.swing.JButton" binding="rightParenthesisButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="70" height="30"/>
+          </grid>
+          <gridbag top="1" left="0" bottom="0" right="1" weightx="1.0E-5" weighty="1.0E-5"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-14012364"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <font name="Inconsolata" size="20" style="0"/>
+          <foreground color="-2311"/>
+          <hideActionText value="true"/>
+          <horizontalTextPosition value="0"/>
+          <text value="("/>
+        </properties>
+      </component>
+      <component id="44124" class="javax.swing.JTextField" binding="cal_screen">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="10" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="49" height="48"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0E-4"/>
+        </constraints>
+        <properties>
+          <alignmentX value="1.0E-4"/>
+          <alignmentY value="1.0E-4"/>
+          <autoscrolls value="true"/>
+          <background color="-16777216"/>
+          <caretColor color="-16777216"/>
+          <columns value="1"/>
+          <doubleBuffered value="true"/>
+          <enabled value="true"/>
+          <focusable value="true"/>
+          <font name="Inter" size="35" style="1"/>
+          <foreground color="-2311"/>
+          <horizontalAlignment value="4"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
